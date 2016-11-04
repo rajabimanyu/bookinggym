@@ -1,0 +1,10 @@
+<?php
+$host="localhost";
+$user="root";
+$pass="";
+$db="tut";
+$conn=mysqli_connect("$host","$user","$pass","$db");
+if(!$conn){
+	die(mysql_error());
+}
+?>
